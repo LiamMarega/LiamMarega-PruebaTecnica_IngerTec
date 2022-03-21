@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- favicon -->
+    <link rel="icon" href="./images/favicon.png" />
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Prueba Tecnica IngerTec</title>
+  </head>
+  <body>
+    <!-- Menu -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light"  >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="Logo" src="./images/logo-ingertec.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#carouselExampleFade">Home</a>
+            <a class="nav-link" href="#Animales">Animales</a>
+            <a class="nav-link" href="#textoTextTarea">Texto</a>
+          
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleFade"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/1.svg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/2.svg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/3.svg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+<!-- MAIN -->
+    <main id="Animales">
+      <section>
+        <div class="container-fluid background">
+          <div class="d-flex justify-content-end">
+            <div class="row">
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="modalElefante"
+                tabindex="-1"
+                aria-labelledby="modalElefanteLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img
+                        class="ImgAnimales img-fluid"
+                        src="./images/ANIMALES_SVG/elefante.svg"
+                        alt="elefante"
+                        width="100%"
+                      />
+                    </div>
+                    <div class="modal-body">
+                      <h4>Elefante</h4>
+                      <p>
+                        Los elefantes o elefántidos son una familia de mamíferos
+                        placentarios del orden Proboscidea. Antiguamente se
+                        clasificaban, junto con otros mamíferos de piel gruesa,
+                        en el orden, ahora inválido, de los paquidermos
+                        (Pachydermata). <br />
+                        Existen hoy en día tres especies y diversas subespecies.
+                        Entre los géneros extintos de esta familia destacan los
+                        mamuts.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Cerrar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal 2 -->
+              <div
+                class="modal fade"
+                id="modalLeon"
+                tabindex="-1"
+                aria-labelledby="modalLeonLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img
+                        class="ImgAnimales img-fluid"
+                        src="./images/ANIMALES_SVG/leon.svg"
+                        alt="Leon"
+                        width="100%"
+                      />
+                    </div>
+                    <div class="modal-body">
+                      <h4>León</h4>
+                      <p>
+                        El león es un mamífero carnívoro de la familia de los
+                        félidos y una de las cinco especies del género Panthera.
+                        <br />
+                        Los leones salvajes viven en poblaciones cada vez más
+                        dispersas y fragmentadas del África subsahariana (a
+                        excepción de las regiones selváticas de la costa del
+                        Atlántico y la cuenca del Congo) y una pequeña zona del
+                        noroeste de India (una población en peligro crítico en
+                        el parque nacional del Bosque de Gir y alrededores),
+                        habiendo desaparecido del resto de Asia del Sur, Asia
+                        Occidental, África del Norte y la península balcánica en
+                        tiempos históricos. <br />
+                        Hasta finales del Pleistoceno, hace aproximadamente 10
+                        000 años, de los grandes mamíferos terrestres, el león
+                        era el más extendido tras los humanos. <br />
+                        Su distribución cubría la mayor parte de África, gran
+                        parte de Eurasia, desde el oeste de Europa hasta la
+                        India, y en América, desde el río Yukón hasta el sur de
+                        México. <br />
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Cerrar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- CONTAINER IMAGENES -->
+              <div  class="container-sm col-12 ContainerImagenesCentrado">
+              <div class="col-6 col-sm-2 containerImage text-center">
+                <img
+                  id="Image1"
+                  class="ImgAnimales img-fluid"
+                  src="./images/ANIMALES_SVG/conejo.svg"
+                  alt=""
+                />
+                <h4>Conejo</h4>
+                <div class="containerDescripcion">
+                  <p>
+                    El conejo común o conejo europeo (Oryctolagus cuniculus) es
+                    una especie de mamífero lagomorfo.
+                  </p>
+                  <h5>Visitas</h5>
+                  <p id="valor1">0</p>
+                </div>
+              </div>
+            
+              <div class="col-6 col-sm-2 containerImage text-center">
+                <img
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalElefante"
+                  id="Image2"
+                  class="ImgAnimales img-fluid"
+                  src="./images/ANIMALES_SVG/elefante.svg"
+                  alt=""
+                />
+                <h4>Elefante</h4>
+                <div class="containerDescripcion">
+                  <p>
+                    Los elefantes o elefántidos son una familia de mamíferos
+                    placentarios del orden Proboscidea.
+                  </p>
+                  <h5>Visitas</h5>
+                  <p id="valor2">0</p>
+                </div>
+
+              </div>
+              <div class="col-6 col-sm-2 containerImage text-center">
+                <img
+                  id="Image3"
+                  class="ImgAnimales img-fluid"
+                  src="./images/ANIMALES_SVG/gallo.svg"
+                  alt=""
+                />
+                <h4>Gallo</h4>
+                <div class="containerDescripcion">
+                  <p>
+                    El gallo y la gallina son una especie de ave galliforme de
+                    la familia Phasianidae procedente del sudeste asiático.
+                  </p>
+                  <h5>Visitas</h5>
+                  <p id="valor3">0</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-2 containerImage text-center">
+                <img
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalLeon"
+                  id="Image4"
+                  class="ImgAnimales img-fluid"
+                  src="./images/ANIMALES_SVG/leon.svg"
+                  alt=""
+                />
+                <h4>León</h4>
+                <div class="containerDescripcion">
+                  <p>
+                    El león es un mamífero carnívoro de la familia de los
+                    félidos y una de las cinco especies del género Panthera.
+                  </p>
+                  <h5>Visitas</h5>
+                  <p id="valor4">0</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-2 containerImage text-center">
+                <img
+                  id="Image5"
+                  class="ImgAnimales img-fluid"
+                  src="./images/ANIMALES_SVG/panda.svg"
+                  alt=""
+                />
+                <h4>Panda</h4>
+                <div class="containerDescripcion">
+                  <p>
+                    El panda, oso panda o panda gigante (Ailuropoda melanoleuca)
+                    es una especie de mamífero del orden de los carnívoros.
+                  </p>
+                  <h5>Visitas</h5>
+                  <p id="valor5">0</p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <main id="textoTextTarea">
+      <section>
+        <div class="container-fluid background2">
+          <div class="Center">
+            <textarea
+              class="textTarea form-control"
+              placeholder=""
+              id="floatingTextarea2"
+            ></textarea>
+            <hr />
+            <button id="textTareaButton">
+              <span class="shadow"></span>
+              <span class="edge"></span>
+              <span class="front text"> ¡Traer Dato! </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- CARTAS TEXTOS -->
+      <div class="ContainerCartasTextos">
+      <div class='deck'>
+        <div class='card'>
+          <header class='cardHeader'>
+            <i class='fab fa-instagram cardHeader_type'></i>
+            <span class='cardHeader_account'>@LiamMarega</span>
+            <span class='cardHeader_date'>Mar 12 6:03</span>
+          </header>
+          <div class='cardBody'>
+            <p class='cardText'>Es un lugar muy agradable para el descanso, hay bancos ubicados en forma circular, una plaza llena de sombra y muy verde. Especial para disfrutar de la naturaleza, tomar mates y pasar un buen rato con buena compañía.
+              <span class='cardText_highlight'>#Elefante</span> <span class='cardText_highlight'>#FullStack</span> <span class='cardText_highlight'>#ZooIngerTec</span> <span class='cardText_highlight'></span></p>
+            <section class='cardStats'>
+              <span class='cardStats_stat cardStats_stat-likes'>2155 <i class='far fa-heart fa-fw'></i></span>
+              <span class='cardStats_stat cardStats_stat-comments'>87 <i class='far fa-comment fa-fw'></i></span>
+              </span>
+          </div>
+        </div>
+      
+        <div class='card'>
+          <header class='cardHeader'>
+            <i class='fab fa-facebook-f cardHeader_type'></i>
+            <span class='cardHeader_account'>@CuentaRandom</span>
+            <span class='cardHeader_date'>Jul 4 11:49</span>
+          </header>
+          <div class='cardBody'>
+            <p class='cardText'>“El Zoológico de Luján fue un zoológico ubicado en la provincia de Buenos Aires, en el kilómetro 58 del Acceso Oeste en cercanías del partido homónimo. Ocupa una superficie de 15 hectáreas conformando un amplio espacio natural. Fue inaugurado el 24 de noviembre de 1994”</p>
+            <section class='cardStats'>
+              <span class='cardStats_stat cardStats_stat-likes'>857 <i class='far fa-heart fa-fw'></i></span>
+              <span class='cardStats_stat cardStats_stat-comments'>54 <i class='far fa-comment fa-fw'></i></span>
+              <span class='cardStats_stat cardStats_stat-shares'>410 <i class='far fa-share fa-fw'></i></span>
+              </span>
+          </div>
+        </div>
+      
+        <div class='card'>
+          <header class='cardHeader'>
+            <i class='fab fa-twitter cardHeader_type'></i>
+            <span class='cardHeader_account'>@RosinaSpitaleri</span>
+            <span class='cardHeader_date'>Jul 6 11:26</span>
+          </header>
+          <div class='cardBody'>
+            <p class='cardText'>Maravilloso lugar. Toqué los animales es todo uno de los más fabuloso por el resto a ellos, la limpieza el cuidado. 
+              Me gustó muchísimo.
+              Hay lugar para comer al mediodía y todo mil puntos. Felicito por la atención y volveré.
+              <span class='cardText_highlight'>#ZooIngerTec</span></p>
+            <section class='cardStats'>
+              <span class='cardStats_stat cardStats_stat-likes'>96 <i class='far fa-heart fa-fw'></i></span>
+              <span class='cardStats_stat cardStats_stat-retweets'>110 <i class='far fa-retweet fa-fw'></i></span>
+              </span>
+          </div>
+        </div>
+      </div>
+      
+        <g>
+          <path d="M40.6,66.2c-0.8-9.4,4.5-19.1,12.9-23.5c0.5-0.2,1-0.5,1.5-0.5c1.1-0.1,2.2,0.6,2.8,1.5c0.6,0.9,0.8,2.1,0.9,3.2   c0.7,8.4-4.2,17-11.7,20.7c-1.1,0.6-2.4,1-3.7,0.9C42,68.5,40.7,67.5,40.6,66.2 M55.6,46.9c-0.1-0.7-0.2-1.5-0.9-1.9   c-5.4,2.8-9.5,8-11.1,13.9c-0.4,1.5-0.6,3.2,0.3,4.5c1.5-3.2,3.3-6.2,5.4-9c0.5-0.7,1.6-1.4,2.1-0.7c0.2,0.4,0.1,0.9-0.1,1.3   c-1.3,3-3,5.9-4.9,8.5c-0.5,0.7-1,1.6-0.4,2.2C52.5,61.9,56.3,54.3,55.6,46.9z" />
+          <path d="M36.7,62.5c-0.2,0.8-0.5,1.7-1.1,2.4c-0.6,0.6-1.7,0.8-2.4,0.2c-1.5-1.6-3.9-1.7-5.9-2.4c-2.9-1-5.3-3.3-6.9-5.9   c-1.6-2.6-2.6-5.6-3.4-8.6c-0.3-0.9-0.5-1.9-0.5-2.9c0.1-1,0.6-2,1.5-2.4c0.5-0.2,1.1-0.2,1.6-0.2c5,0.1,10,2,13.8,5.2   c1.4,1.2,2.7,2.6,3.4,4.3C38.4,55.4,37.6,59.1,36.7,62.5 M33.6,52.7c-2.8-4.1-7.4-6.8-12.4-7.2c-0.3,0-0.7,0-1,0.2   c-0.2,0.2-0.2,0.4-0.2,0.7c-0.2,3.2,1.3,6.3,3.4,8.8c2.1,2.4,4.9,4.2,7.7,5.6c0.4,0.2,1.1,0.4,1.3-0.1c0.1-0.2,0-0.5-0.2-0.7   c-1.2-2.2-2.4-4.4-3.6-6.7c-0.3-0.5,0.3-1.2,0.9-1.2c0.6,0,1.1,0.4,1.5,0.8c1.6,1.5,2.7,3.4,3.2,5.5C35.5,56.8,34.7,54.4,33.6,52.7   z" />
+          <path d="M66,77.6c-3.4,3.1-8.3,3.9-12.9,3.6c-0.7-0.1-1.5-0.2-1.9-0.8c-0.3-0.4-0.3-1-0.3-1.5c0.2-5.4,3.1-10.4,7-14.1   c3.9-3.7,8.7-6.3,13.6-8.6c0.8-0.4,2.1-0.5,2.3,0.3c0,0.2,0,0.4-0.1,0.6c-0.7,3-1.5,6-2.2,8.9C70.3,70.3,69.1,74.7,66,77.6    M60.1,73.5c-1.5,1.7-3,3.3-4.4,5c2.8,0.4,5.8-0.5,8-2.4c4.1-3.7,4.2-10,6.2-15.1c-0.3-0.6-1.2-0.4-1.8-0.2   c-5.9,2.5-10.7,7.2-13.5,13c-0.4,0.8-0.6,2.2,0.3,2.5c0.7-1.2,1.7-2.2,2.8-3.1c0.4-0.3,0.9-0.6,1.4-0.6   C59.6,72.6,60.2,73,60.1,73.5z" />
+          <path d="M84.2,40.9c0,0.5-0.3,1-0.5,1.4c-4.1,6.7-11.2,12-19.1,11.9c-0.8,0-1.5-0.1-2.2-0.5c-0.6-0.4-1-1.3-0.6-2   c3.8-6.7,10.7-11.6,18.3-12.8c0.9-0.1,1.8-0.2,2.6,0C83.5,39.2,84.3,40,84.2,40.9 M79.3,42.5c-2.9,0.3-5.8,1.3-8.2,2.9   c-2,1.3-3.6,3-5.3,4.7c-0.1,0.1-0.3,0.3-0.3,0.4c0,0.4,0.6,0.5,1,0.5c4.9-0.7,9.4-3.3,12.5-7.2C79.4,43.5,79.7,42.8,79.3,42.5z" />
+          <path d="M37.6,43.6c-0.5,0.7-1.6,0.4-2.3,0c-3.9-2.1-7.7-4.7-10.5-8.2s-4.9-7.7-5.1-12.2c0-0.4,0-0.8,0.2-1.1c0.5-1,2-0.6,3-0.1   c7.6,4.1,13.2,11.7,14.9,20.1C37.8,42.6,37.9,43.2,37.6,43.6 M22.6,26.5c2.2,5.5,6,10.3,10.9,13.5c0.3,0.2,0.8,0.3,0.8,0   c0-0.1,0-0.2-0.1-0.3C32,33.8,28.1,28.6,23,24.9C22.4,24.9,22.4,25.9,22.6,26.5z" />
+          <path d="M7,61c1.5-2.3,4.9-2.2,7.4-1.1c5,2.3,8.2,8,7.5,13.5c0,0.2-0.1,0.5-0.2,0.7c-0.4,0.4-1.2,0-1.6-0.4   c-1.7-1.7-3.1-3.8-5.3-4.8c-1.7-0.7-3.6-0.7-5.2-1.5C7.1,66.3,5.6,63.2,7,61 M18.5,67.8c-1.4-3-4.2-5.3-7.5-6   c-0.6-0.1-1.4-0.2-1.8,0.3c-0.5,0.5-0.4,1.5,0.1,2c0.5,0.6,1.2,0.8,1.9,1.1C13.6,66,16,66.9,18.5,67.8z" />
+          <path d="M63.1,37.3c0.6-1.5,2.5-2.4,4-1.8c1.5,0.6,2.4,2.4,1.9,4c-0.5,1.5-2.4,2.5-3.9,2C63.4,40.9,62.4,38.9,63.1,37.3 M65.2,38.1   c0,0.6,0.4,1.2,0.9,1.5c0.4-0.4,0.7-1,0.4-1.5C66.3,37.6,65.4,37.6,65.2,38.1L65.2,38.1z" />
+          <path d="M45.1,18.8c1.3-0.2,2.2,1.3,2.6,2.6c2.1,6.8,2.4,14.4-0.8,20.7c-0.5,1-1.4,2.1-2.5,1.9c-0.7-0.1-1.2-0.8-1.6-1.5   c-3.5-6.5-2.5-14.7,0.3-21.6C43.6,20,44.1,19,45.1,18.8 M45.4,40.6c0.1-0.1,0.2-0.3,0.2-0.4c1.6-5.5,1.6-11.4,0.1-17   c-0.1-0.3-0.4-0.7-0.7-0.6c-0.1,0.1-0.2,0.2-0.2,0.3c-2,5.3-2.2,11.3-0.7,16.8C44.3,40.3,44.9,41,45.4,40.6z" />
+          <path d="M95,70.2c0.8,1.7-0.4,4-2.2,4.4c-1.9,0.4-3.9-1.3-3.8-3.2c0-1.4,1.1-2.7,2.5-3C92.9,68.1,94.4,68.9,95,70.2 M91.4,70.5   c-0.7,0.7,0.1,2.2,1.1,2C92.8,71.8,92.3,70.8,91.4,70.5L91.4,70.5z" />
+          <path d="M86.8,53c1.9,0.9,2.7,3.4,2.3,5.5c-0.4,2.1-1.5,4-2.5,5.9c-2.1,3.9-3.6,8.1-4.5,12.4c-3.6-5.2-4.7-12.1-2.9-18.2   c0.5-1.7,1.3-3.4,2.6-4.6C83.2,52.8,85.2,52.2,86.8,53 M83.7,55.7c-3.1,3.1-3.1,8-2.9,12.4c0,0.4,0.3,1,0.6,0.8   c0.1-0.1,0.1-0.2,0.2-0.2c1.6-2.8,3-5.7,4.2-8.6c0.4-1,0.9-2.2,0.5-3.3S84.5,54.9,83.7,55.7z" />
+          <path d="M31.9,70c0.8,1.8-0.4,4.1-2.3,4.5c-1.9,0.4-4-1.3-3.9-3.3c0-1.4,1.2-2.8,2.6-3.1C29.7,67.9,31.3,68.7,31.9,70 M28.3,70.4   c-0.7,0.8,0.1,2.2,1.1,2.1C29.6,71.6,29.1,70.6,28.3,70.4L28.3,70.4z" />
+        </g>
+      </svg>
+    </>
+    
+      <!-- FOOTER -->
+    <main>
+      <section>
+        <div class="container-fluid background3">
+          <div class="Center">
+          
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <div class="container-fluid background3">
+          <div class="Center">
+           <hr />
+           <div class="col-6 col-sm-3 centradoFooter">
+           <p>©2022 Liam Marega, Full Stack Developer</p>
+           
+          </div>
+           <div class="col-6 col-sm-3 centradoFooter">
+            <a href="https://www.ingertec.com.ar"  target="_blank">
+           <img src="./images/favicon.png" width="30px" alt="logo">
+          </a>
+          </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+    
+    <script type="module" src="./javascript/popUp.js"></script>
+    <script type="module" src="./javascript/script.js"></script>
+    <script type="module" src="./javascript/NavBarScroll.js"></script>
+    <script src="./javascript/textTarea.js"></script>
+  </body>
+</html>
